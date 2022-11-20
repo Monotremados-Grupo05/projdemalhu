@@ -1,0 +1,55 @@
+#Pagina1{
+    height:100vh;
+}
+#Pagina2{
+    height:100vh;
+}
+#Pagina3{
+    height:100vh;
+    background-color: yellow;
+}
+#Pagina4{
+    height:100vh;
+    background-color: #262626;
+}
+#NossaGente_H2{
+    text-align: center;
+    color: #FBF5F1;
+    font-size: clamp(2vw,5vw,7vw);
+    padding-top: 10%;
+}
+#NossaGente_Imgs{
+    position: relative;
+    display: inline-block;
+    width: 11%;
+    padding: 5%;
+    padding-right: 8%;
+    border-radius: 50%;
+    left: 4%;
+}
+#NossaGente_Nomes{
+    position: relative;
+    display: inline;
+    font-size: 3vw;
+    color: #FAF5F1;
+    margin-left: 16%;
+    right: 6%;
+}
+#NossaGente_Cargos{
+    position: relative;
+    display: inline;
+    font-size: 1.5vw;
+    color: #FAF5F1;
+    margin-left: 18%;
+    right: 8%;
+}
+#Pagina5{
+    height:100vh;
+    background-color: yellow;
+}
+#Pagina6{
+    height:100vh;
+}
+#Pagina7{
+    height:100vh;
+}
