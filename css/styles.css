@@ -1,125 +1,109 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
-
-/*#Pagina1{
-    height:100vh;
-}
-#Pagina2{
-    height:100vh;
-}
-#Pagina3{
-    height:100vh;
-}*/
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
-#Pagina4{
-   background-color: #FAF5F1;
-    height:100vh;
-}
-#Pagina5{
-    height:100vh;
-}
-#Pagina6{
-    height:100vh;
-}
-#Pagina7{
-    height:100vh;
-}
-.lcima{
-
-    grid-area: c;
-}
-.lmeio{
-
-grid-area: m;
-
-}
-.lbaixo{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-
-    grid-area: b;
-
-}
-.lcont{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 30vh 40vh 30vh;
-    grid-template-areas:"c "
-                        "m "
-                        "b ";
-
-}
-.lfbox{
-    display: flex;
-    align-items: center;
-    margin-top:3%;
-    justify-content: space-around;
-   
-       
-}
-.lfoto1{
-    box-shadow: 4px 1px 15px 0px;
-    border-radius: 50%;
-    height: 15vw;
-    width: 15vw;
-
-}
-.lproj{
-    font-size:2vw;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
+    margin: 0;
+    padding: 0;
     
-
-}
-.lajuda{
-    font-size:200%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-top:3%;
-    font-family: 'Montserrat', sans-serif;
+    }
     
-    text-align: center;
-}
-.lbajuda{
-    font-size:200%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    margin-top:3%;
-    color: #FAF5F1;
-    background-color: #262626;
-    height: 4vw;
-    width: 10vw;
-    text-align: center;
-   border-radius: 3vw;
-    border: 0;
-   
-}
-.lucasescrita{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    padding-left: 20%;
-    padding-right: 20%;
-}
-.ltitulo{
-    font-family: 'Poppins', sans-serif;
-    margin-top:3%;
-    font-size:500%;
-}
-.ltexto{
-    font-size:200%;
+    #Pagina1{
+        height:100vh;
+    }
+    #Pagina2{
+        height:100vh;
+    }
+    #Pagina3{
+        height:100vh;
+    }
+    #Pagina4{
+        height:100vh;
+    }
+    #Pagina5{
+        height:100vh;
+    }
+    #Pagina6{
+        height:100vh;
+    }
+    #Pagina7{
+        height:100vh;
+    }
     
-}
+    .nav-bar-page1{
+        background-color: #262626;
+        width: 100%;
+        height: 8%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .botao-doar-page1{
+        background-color: #ebebeb;
+        border-radius: 8px;
+        width: 9%;
+        height: 79%;
+        color: black;
+        border: transparent
+    }
+    .img-logo-page1{
+    
+    height: 80%;
+    
+    }
+    
+    .titolo-page1{
+        color: #ffff;
+        margin-left: -7%;
+    
+    }
+    
+    
+    .botao-quem_somos-page1{
+    
+        color: #ffff;
+    }
+    
+    .botao-nossos_projetos-page1{
+    
+        color: #ffff;
+    }
+    
+    .botao-como_doar-page1{
+    
+        color: #ffff;
+    }
+    
+    .botao-contato-page1{
+    
+        color: #ffff;
+    }
+    
+    .texto-encimada-img-page1{
+        padding-left: 22vw;
+        padding-top: 10vh;
+        font-size: 3vw;
+        color: #ffff;
+    
+    }
+    
+    .img-texto-page1{
+        display: flex;
+        height: 100vh;
+    }
+    
+    .conteiner-da-foto-ong-page1{
+        background-repeat: no-repeat;
+        position: absolute;
+        z-index: 1;
+        height: 104vh;
+        width: 99vw;
+    }
+    
+    .foto-da-ong-page1{
+        height: 104vh;
+        width: 99vw;
+    }
+    
+    .div-do-texto-encimada-img-page1{
+    
+        z-index: 2;
+    }
+    
+    
