@@ -1,0 +1,55 @@
+#Pagina1{
+    height:100vh;
+}
+#Pagina2{
+    height:100vh;
+    height:100wh;
+    background-color:#FAF5F1;
+    font-family:comic Sans ms;
+}
+#Pagina3{
+    height:100vh;
+}
+#Pagina4{
+    height:100vh;
+}
+#Pagina5{
+    height:100vh;
+}
+#Pagina6{
+    height:100vh;
+}
+#Pagina7{
+    height:100vh;
+}
+
+#Alinhamento{
+    display:flex;
+    align-items: center;
+    flex-direction:column;
+    top:50%;
+}
+#H1Pagina2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 52px;
+    align-items: center;
+    text-align: center;
+    font-
+}
+
+#Botao1Pagina2{
+    width: 207px;
+    height: 57px;
+    color:white;
+    background-color:black;
+    border-radius: 30px;
+    font-family:comic Sans ms;
+
+}
+
+#P1Pagina2{
+    WIDTH:40vw;
+    letter-spacing:0.05em;
+}
