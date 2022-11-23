@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap");
 
 /*#Pagina1{
     height:100vh;
@@ -10,456 +10,422 @@
 #Pagina3{
     height:100vh;
 }*/
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-#Pagina4{
-   background-color: #FAF5F1;
-    height:100vh;
+#Pagina4 {
+  background-color: #faf5f1;
+  height: 100vh;
 }
-#Pagina5{
-    height:100vh;
+#Pagina5 {
+  height: 100vh;
 }
-#Pagina6{
-    height:100vh;
+#Pagina6 {
+  height: 100vh;
 }
-#Pagina7{
-    height:100vh;
+#Pagina7 {
+  height: 100vh;
 }
-.lcima{
+.lcima {
+  grid-area: c;
+}
+.lmeio {
+  grid-area: m;
+}
+.lbaixo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 
-    grid-area: c;
+  grid-area: b;
 }
-.lmeio{
+.lcont {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 30vh 40vh 30vh;
+  grid-template-areas:
+    "c "
+    "m "
+    "b ";
+}
+.lfbox {
+  display: flex;
+  align-items: center;
+  margin-top: 3%;
+  justify-content: space-around;
+}
+.lfoto1 {
+  box-shadow: 4px 1px 15px 0px;
+  border-radius: 50%;
+  height: 15vw;
+  width: 15vw;
+}
+.lproj {
+  font-size: 2vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+.lajuda {
+  font-size: 200%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 3%;
+  font-family: "Montserrat", sans-serif;
 
-grid-area: m;
-
+  text-align: center;
 }
-.lbaixo{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-
-    grid-area: b;
-
+.lbajuda {
+  font-size: 200%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 3%;
+  color: #faf5f1;
+  background-color: #262626;
+  height: 4vw;
+  width: 10vw;
+  text-align: center;
+  border-radius: 3vw;
+  border: 0;
 }
-.lcont{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 30vh 40vh 30vh;
-    grid-template-areas:"c "
-                        "m "
-                        "b ";
-
+.lucasescrita {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
 }
-.lfbox{
-    display: flex;
-    align-items: center;
-    margin-top:3%;
-    justify-content: space-around;
-   
-       
+.ltitulo {
+  font-family: "Poppins", sans-serif;
+  margin-top: 3%;
+  font-size: 500%;
 }
-.lfoto1{
-    box-shadow: 4px 1px 15px 0px;
-    border-radius: 50%;
-    height: 15vw;
-    width: 15vw;
-
-}
-.lproj{
-    font-size:2vw;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    
-
-}
-.lajuda{
-    font-size:200%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-top:3%;
-    font-family: 'Montserrat', sans-serif;
-    
-    text-align: center;
-}
-.lbajuda{
-    font-size:200%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    margin-top:3%;
-    color: #FAF5F1;
-    background-color: #262626;
-    height: 4vw;
-    width: 10vw;
-    text-align: center;
-   border-radius: 3vw;
-    border: 0;
-   
-}
-.lucasescrita{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    padding-left: 20%;
-    padding-right: 20%;
-}
-.ltitulo{
-    font-family: 'Poppins', sans-serif;
-    margin-top:3%;
-    font-size:500%;
-}
-.ltexto{
-    font-size:200%;
-    
+.ltexto {
+  font-size: 200%;
 }
 
 .donation-tab {
-    background: #262626;
-    font-family: 'Montserrat';
+  background: #262626;
+  font-family: "Montserrat";
 }
 .donation-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top:  50px;
-    padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
 }
 
 .donation-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: #FAF5F1;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    margin-bottom: 50px;
-   
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #faf5f1;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-bottom: 50px;
 }
 
 .donation-title {
-    color: #FBF5F1;
-    font-weight: 700;
-    font-size: 50px;
-    font-family: 'Hanson';
-    margin-bottom: 20px;
+  color: #fbf5f1;
+  font-weight: 700;
+  font-size: 50px;
+  font-family: "Hanson";
+  margin-bottom: 20px;
 }
 
 .pagseguro-img {
-    margin-top: 30px;
-    height: 38px;
-    width: 149px;
+  margin-top: 30px;
+  height: 38px;
+  width: 149px;
 }
 
 .donation-box-title {
-    align-self: flex-start;
-    margin-left: 20px;
-    margin-top: 20px;
-    margin-bottom: 5px;
-    
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    color: #262626;
+  align-self: flex-start;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #262626;
 }
 
-.donation-input{
-    border: solid 0.5px rgb(173, 168, 168);
-    height: 4vh;
-    padding-left: 2px;
+.donation-input {
+  border: solid 0.5px rgb(173, 168, 168);
+  height: 4vh;
+  padding-left: 2px;
 }
 
 ::placeholder {
-    color: rgba(0, 0, 0, 0.5);
-    opacity: 10;
+  color: rgba(0, 0, 0, 0.5);
+  opacity: 10;
 }
 
 .donation-box-link {
-    align-self: flex-start;
-    color: #003585;
-    font-size: 13px;
-    padding-top: 8px;
-    margin-left: 20px;
+  align-self: flex-start;
+  color: #003585;
+  font-size: 13px;
+  padding-top: 8px;
+  margin-left: 20px;
 }
 
 .donation-box-button {
-    background: #262626;
-    color: #FAF5F1;
-    padding: 8px;
-    padding-left: 12px;
-    padding-right: 12px;
-    margin-top: 20px;
-    border-radius: 10px;
-
+  background: #262626;
+  color: #faf5f1;
+  padding: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-top: 20px;
+  border-radius: 10px;
 }
 
-
 footer {
-    padding-left: 5px;
-    padding-right: 5px;
-    background: #262626;
-    font-family: 'Montserrat';
+  padding-left: 5px;
+  padding-right: 5px;
+  background: #262626;
+  font-family: "Montserrat";
 }
 
 .footer-container {
-    display: flex;
-    column-gap: 8;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding-top: 30px;
-    padding-bottom: 40px;
-    border-top: 1px solid #FAF5F1;
+  display: flex;
+  column-gap: 8;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  border-top: 1px solid #faf5f1;
 }
 
 @media (min-width: 768px) {
-    .grid-footer-container {
-        grid-template-columns: repeat(4, minmax(0, 1fr));
-    }
+  .grid-footer-container {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
 }
 
 .separator {
-    border-top: 1px solid red;
-    
+  border-top: 1px solid red;
 }
 
+#Pagina1 {
+  height: 100vh;
+}
+#Pagina2 {
+  height: 100vh;
 
-#Pagina1{
-    height:100vh;
-}
-#Pagina2{
-    height:100vh;
-    height:100wh;
-    background-color:#FAF5F1;
-    font-family:comic Sans ms;
-    margin-top: 140px;
-}
-#Pagina3{
-    height:100vh;
-    background: #262626;
-}
-#Pagina4{
-    height:100vh;
-}
-#Pagina5{
-    height:100vh;
-}
-#Pagina6{
-    height:100vh;
-}
-#Pagina7{
-    height:100vh;
-}
-
-#Alinhamento{
-    display:flex;
-    align-items: center;
-    flex-direction:column;
-    top:50%;
-}
-#H1Pagina2{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 50px;
-    line-height: 52px;
-    align-items: center;
-    text-align: center;
-    
-}
-
-#Botao1Pagina2{
-    width: 207px;
-    height: 57px;
-    color:white;
-    background-color:black;
-    border-radius: 30px;
-    
+  background-color: #faf5f1;
+  font-family: comic Sans ms;
 
 }
-
-#P1Pagina2{
-    WIDTH:40vw;
-    letter-spacing:0.05em;
-
+#Pagina3 {
+  height: 100vh;
+  background: #262626;
+}
+#Pagina4 {
+  height: 100vh;
+}
+#Pagina5 {
+  height: 100vh;
+}
+#Pagina6 {
+  height: 100vh;
+}
+#Pagina7 {
+  height: 100vh;
 }
 
-#QuemSomos_Titulo{
-    text-align: center;
-    color: #FBF5F1;
-    font-size: clamp(2vw,5vw,7vw);
-    padding-top: 10%;
+#Alinhamento {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  top: 50%;
 }
-#QuemSomos_Texto{
-    display: inline-block;
-    color: #FBF5F1;
-    text-align: left;
-    padding-left: 10%;
-    padding-top: 6%;
-    font-size: clamp(0.5vw,1.5vw,2vw);
-    width: 60%; 
-}
-#QuemSomos_Img{
-    display: inline-block;
-    padding-left: 7%;
-    width: 20%;
+#H1Pagina2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 52px;
+  align-items: center;
+  text-align: center;
 }
 
-#NossaGente_H2{
-    text-align: center;
-    color: #FBF5F1;
-    font-size: clamp(2vw,5vw,7vw);
-    padding-top: 10%;
-}
-#NossaGente_Imgs{
-    position: relative;
-    display: inline-block;
-    width: 11%;
-    padding: 5%;
-    padding-right: 8%;
-    border-radius: 50%;
-    left: 4%;
-}
-#NossaGente_Nomes{
-    position: relative;
-    display: inline;
-    font-size: 3vw;
-    color: #FAF5F1;
-    margin-left: 16%;
-    right: 6%;
-}
-#NossaGente_Cargos{
-    position: relative;
-    display: inline;
-    font-size: 1.5vw;
-    color: #FAF5F1;
-    margin-left: 18%;
-    right: 8%;
+#Botao1Pagina2 {
+    border: 0;
+  width: 207px;
+  height: 57px;
+  color: white;
+  background-color: black;
+  border-radius: 30px;
 }
 
-.nav-bar-page1{
-    background-color: #262626;
-    width: 100%;
-    height: 8%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-.botao-doar-page1{
-    background-color: #ebebeb;
-    border-radius: 8px;
-    width: 9%;
-    height: 79%;
-    color: black;
-    border: transparent
-}
-.img-logo-page1{
-
-height: 80%;
-
+#P1Pagina2 {
+  width: 40vw;
+  letter-spacing: 0.05em;
 }
 
-.titolo-page1{
-    color: #ffff;
-    margin-left: -7%;
-
+#QuemSomos_Titulo {
+  text-align: center;
+  color: #fbf5f1;
+  font-size: clamp(2vw, 5vw, 7vw);
+  padding-top: 10%;
+}
+#QuemSomos_Texto {
+  display: inline-block;
+  color: #fbf5f1;
+  text-align: left;
+  padding-left: 10%;
+  padding-top: 6%;
+  font-size: clamp(0.5vw, 1.5vw, 2vw);
+  width: 60%;
+}
+#QuemSomos_Img {
+  display: inline-block;
+  padding-left: 7%;
+  width: 20%;
 }
 
-
-.botao-quem_somos-page1{
-
-    color: #ffff;
+#NossaGente_H2 {
+  text-align: center;
+  color: #fbf5f1;
+  font-size: clamp(2vw, 5vw, 7vw);
+  padding-top: 10%;
+}
+#NossaGente_Imgs {
+  position: relative;
+  display: inline-block;
+  width: 11%;
+  padding: 5%;
+  padding-right: 8%;
+  border-radius: 50%;
+  left: 4%;
+}
+#NossaGente_Nomes {
+  position: relative;
+  display: inline;
+  font-size: 3vw;
+  color: #faf5f1;
+  margin-left: 16%;
+  right: 6%;
+}
+#NossaGente_Cargos {
+  position: relative;
+  display: inline;
+  font-size: 1.5vw;
+  color: #faf5f1;
+  margin-left: 18%;
+  right: 8%;
 }
 
-.botao-nossos_projetos-page1{
-
-    color: #ffff;
+.nav-bar-page1 {
+  background-color: #262626;
+  width: 100%;
+  height: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.botao-doar-page1 {
+  background-color: #ebebeb;
+  border-radius: 8px;
+  width: 9%;
+  height: 79%;
+  color: black;
+  border: transparent;
+}
+.img-logo-page1 {
+  height: 80%;
 }
 
-.botao-como_doar-page1{
-
-    color: #ffff;
+.titolo-page1 {
+  color: #ffff;
+  margin-left: -7%;
 }
 
-.botao-contato-page1{
-
-    color: #ffff;
+.botao-quem_somos-page1 {
+  color: #ffff;
 }
 
-.texto-encimada-img-page1{
-    padding-left: 22vw;
-    padding-top: 10vh;
-    font-size: 3vw;
-    color: #ffff;
-
+.botao-nossos_projetos-page1 {
+  color: #ffff;
 }
 
-.img-texto-page1{
-    display: flex;
-    height: 100vh;
+.botao-como_doar-page1 {
+  color: #ffff;
 }
 
-.conteiner-da-foto-ong-page1{
-    background-repeat: no-repeat;
-    position: absolute;
-    z-index: 1;
-    height: 104vh;
-    width: 99vw;
+.botao-contato-page1 {
+  color: #ffff;
 }
 
-.foto-da-ong-page1{
-    height: 104vh;
-    width: 99vw;
+.texto-encimada-img-page1 {
+  padding-left: 22vw;
+  padding-top: 10vh;
+  font-size: 3vw;
+  color: #ffff;
 }
 
-.div-do-texto-encimada-img-page1{
-
-    z-index: 2;
+.img-texto-page1 {
+  display: flex;
+  height: 100vh;
 }
 
+.conteiner-da-foto-ong-page1 {
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: 1;
+  height: 100vh;
+  width: 100vw;
+}
+
+.foto-da-ong-page1 {
+  height: 92vh;
+  width: 100vw;
+}
+
+.div-do-texto-encimada-img-page1 {
+  z-index: 2;
+}
 
 .footer-list {
-    list-style: none
+  list-style: none;
 }
 
 .footer-title {
-    font-family: 'Hanson';
-    font-style: normal;
-    font-weight: 700;
-    margin-bottom: 10px;
-    font-size: 25px;
-    color: #FAF5F1;
-    
+  font-family: "Hanson";
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 25px;
+  color: #faf5f1;
 }
 
 .footer-link-items {
-    margin-bottom: 4;
-    color: #EDE9E6;
-    font-weight: 500;
-    
+  margin-bottom: 4;
+  color: #ede9e6;
+  font-weight: 500;
 }
 
 .footer-last {
-    background-color: #797471;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
+  background-color: #797471;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .footer-last-text {
-    font-weight: 600;
-
+  font-weight: 600;
 }
-
