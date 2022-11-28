@@ -67,7 +67,7 @@ a {
     border-radius: 15%;
     height: 20vw;
     width: 19vw;
-    border: solid brown;
+    border: solid rgb(0, 0, 0);
 }
 .lproj {
   padding-top: 15%;
