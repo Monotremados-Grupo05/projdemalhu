@@ -1,27 +1,21 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap");
 
-html{
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
 
-scroll-behavior: smooth;
-
+html {
+  scroll-behavior: smooth;
 }
 
-a{
-
-text-decoration: none;
-
+a {
+  text-decoration: none;
+  color:white;
 }
 
-/*#Pagina1{
-    height:100vh;
+
+#A1login{
+  color:black;
 }
-#Pagina2{
-    height:100vh;
-}
-#Pagina3{
-    height:100vh;
-}*/
+
 * {
   margin: 0;
   padding: 0;
@@ -69,44 +63,35 @@ text-decoration: none;
   justify-content: space-around;
 }
 .lfoto1 {
-  box-shadow: 4px 1px 15px 0px;
-  border-radius: 50%;
-  height: 15vw;
-  width: 15vw;
+  box-shadow: 2px 1px 5px 0px;
+  border-radius: 15%;
+  height: 25vw;
+  width: 25vw;
 }
 .lproj {
-  font-size: 2vw;
+  padding-top: 15%;
+  padding-right: 10%;
+
+  font-size: 150%;
+  font-family: Georgia, "Times New Roman", Times, serif;
   display: flex;
   align-items: center;
-  flex-direction: column;
-  font-family: "Poppins", sans-serif;
   text-align: center;
-}
-.lajuda {
-  font-size: 200%;
-  display: flex;
-  align-items: center;
   flex-direction: column;
-  margin-top: 3%;
-  font-family: "Montserrat", sans-serif;
 
   text-align: center;
 }
-.lbajuda {
-  font-size: 200%;
+.lajuda {
+  font-size: 150%;
+  font-family: Georgia, "Times New Roman", Times, serif;
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: center;
-  margin-top: 3%;
-  color: #faf5f1;
-  background-color: #262626;
-  height: 4vw;
-  width: 10vw;
+  margin-top: 8%;
+
   text-align: center;
-  border-radius: 3vw;
-  border: 0;
 }
+
 .lucasescrita {
   display: flex;
   align-items: center;
@@ -117,12 +102,15 @@ text-decoration: none;
   padding-right: 20%;
 }
 .ltitulo {
-  font-family: "Poppins", sans-serif;
+  font-size: 400%;
+  font-family: Arial, Helvetica, sans-serif;
   margin-top: 3%;
-  font-size: 500%;
 }
+
 .ltexto {
-  font-size: 200%;
+  margin-top: 3%;
+  font-size: 150%;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .donation-tab {
@@ -130,6 +118,8 @@ text-decoration: none;
   font-family: "Montserrat";
 }
 .donation-container {
+  background-image: url(./img/plano_de_fundo-removebg-preview.png);
+  
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -152,8 +142,8 @@ text-decoration: none;
 .donation-title {
   color: #fbf5f1;
   font-weight: 700;
-  font-size: 50px;
-  font-family: "Hanson";
+  font-size: 300%;
+  font-family: Arial, Helvetica, sans-serif;
   margin-bottom: 20px;
 }
 
@@ -232,16 +222,15 @@ footer {
 }
 
 #Pagina1 {
-    height: 100vh;
-    background-color: black;
+  height: 100vh;
+  background-color: black;
 }
 #Pagina2 {
-    height: 100vh;
-    display: flex;
-    background-color: #faf5f1;
-    justify-content: flex-start;
-    align-items: center;
-
+  height: 100vh;
+  display: flex;
+  background-color: #faf5f1;
+  justify-content: flex-start;
+  align-items: center;
 }
 #Pagina3 {
   height: 100vh;
@@ -260,56 +249,44 @@ footer {
   height: 100vh;
 }
 
-.img-canto-page2{
-
-    width: 12vw;
-    height: 100vh;
+.img-canto-page2 {
+  width: 12vw;
+  height: 100vh;
 }
-.img-lado-direito-page2{
-   
-    width: 12vw;
-    height: 100vh;
-    margin-left: 19%;
-
+.img-lado-direito-page2 {
+  width: 12vw;
+  height: 100vh;
+  margin-left: 19%;
 }
 
-
-.caixao-page2{
- 
-   
-    width: 40vw;
-    height: 40vh;
-    float: right;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: flex-end;
-    text-align: center;
-    margin-left: 17%;
-
+.caixao-page2 {
+  width: 40vw;
+  height: 40vh;
+  float: right;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: center;
+  margin-left: 17%;
 }
 
-.titolo-page2{
-
-    font-size: 200%; 
-    font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 5%;
+.titolo-page2 {
+  font-size: 200%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 5%;
 }
 
+.texto-multivasional-page2 {
+  font-size: 150%;
+  font-family: Georgia, "Times New Roman", Times, serif;
 
-.texto-multivasional-page2{
-
-    font-size: 150%; 
-    font-family: Georgia, 'Times New Roman', Times, serif;
-
-
-    margin-bottom: 13%;
+  margin-bottom: 13%;
 }
-
-
 
 #Botao1Pagina2 {
-    border: 0;
+  border: 0;
+  font-size: 100%;
   width: 207px;
   height: 57px;
   color: white;
@@ -318,27 +295,90 @@ footer {
   cursor: pointer;
 }
 
-
-
 #QuemSomos_Titulo {
   text-align: center;
   color: #fbf5f1;
   font-size: clamp(2vw, 5vw, 7vw);
-  padding-top: 10%;
+  padding-top: 3%;
 }
 #QuemSomos_Texto {
-  display: inline-block;
   color: #fbf5f1;
-  text-align: left;
-  padding-left: 10%;
-  padding-top: 6%;
-  font-size: clamp(0.5vw, 1.5vw, 2vw);
+  text-align: center;
+
+  padding-top: 2%;
+  font-size: 150%;
+  font-family: Georgia, "Times New Roman", Times, serif;
   width: 60%;
 }
-#QuemSomos_Img {
-  display: inline-block;
-  padding-left: 7%;
-  width: 20%;
+.esquerda {
+  margin-right: 5%;
+  padding-top:-5%;
+  transform: rotate(300deg);
+  width: 10%;
+  height: 10%;
+}
+.direita {
+  margin-left: 5%;
+  padding-top:-5%;
+  transform: rotate(-300deg);
+  width: 10%;
+  height: 10%;
+}
+.ntexto {
+  padding-top: 10%;
+  display: flex;
+  justify-content: center;
+
+  flex-direction: row;
+}
+.nmembros {
+  display: flex;
+  align-items: center;
+  margin-top: 2%;
+  justify-content: space-around;
+}
+.lfotom {
+  box-shadow: 1px 1px 5px 0px;
+  border-radius: 50%;
+  height: 13vw;
+  width: 13vw;
+}
+.lnomemembro {
+  padding-top: 15%;
+  padding-right: 10%;
+  padding-left: 10%;
+  color: #ffff;
+  font-size: 150%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+
+  text-align: center;
+}
+.lcargomembro {
+  padding-top: 5%;
+  padding-right: 10%;
+  padding-left: 10%;
+  color: #ffff;
+  font-size: 100%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+
+  text-align: center;
+}
+
+.nimg {
+  position: relative;
+
+  left: 65%;
+  top: -25%;
+  height: 30%;
+  width: 30%;
 }
 
 #NossaGente_H2 {
@@ -380,47 +420,46 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  
 }
 .botao-doar-page1 {
-  background-color: #ebebeb;
-  border-radius: 8px;
-  width: 9%;
-  height: 79%;
-  color: black;
-  border: transparent;
+  border: 0;
+  font-size: 100%;
+  width: 150px;
+  height: 57px;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  border-radius: 30px;
   cursor: pointer;
+ 
+
 }
 .img-logo-page1 {
-    height: 80%;
-    border-radius: 9px;
+  height: 80%;
+  border-radius: 9px;
 }
 
 .titolo-page1 {
+  font-size: 130%;
+  font-family: Georgia, "Times New Roman", Times, serif;
   color: #ffff;
+
   margin-left: -7%;
 }
 
-.botao-quem_somos-page1 {
+.botao-page1 {
   color: #ffff;
-}
-
-.botao-nossos_projetos-page1 {
-  color: #ffff;
-}
-
-.botao-como_doar-page1 {
-  color: #ffff;
-}
-
-.botao-contato-page1 {
-  color: #ffff;
+  font-size: 100%;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .texto-encimada-img-page1 {
-    padding-left: 17vw;
-    padding-top: 9vh;
-    font-size: 3vw;
-    color: #ffff;
+  padding-left: 22vw;
+  padding-top: 9vh;
+  font-size: 300%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffff;
 }
 
 .img-texto-page1 {
@@ -429,19 +468,18 @@ footer {
 }
 
 .conteiner-da-foto-ong-page1 {
-    background-repeat: no-repeat;
-    position: absolute;
-    z-index: 1;
-    height: 100%;
-    width: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
 }
 
 .foto-da-ong-page1 {
-    height: 92vh;
-    width: 99vw;
-    opacity: 60%;
+  height: 92vh;
+  width: 99vw;
+  opacity: 60%;
 }
-
 
 .div-do-texto-encimada-img-page1 {
   z-index: 2;
@@ -478,4 +516,3 @@ footer {
 .footer-last-text {
   font-weight: 600;
 }
-
