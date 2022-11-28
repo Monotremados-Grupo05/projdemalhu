@@ -64,9 +64,10 @@ a {
 }
 .lfoto1 {
   box-shadow: 2px 1px 5px 0px;
-  border-radius: 15%;
-  height: 25vw;
-  width: 25vw;
+    border-radius: 15%;
+    height: 20vw;
+    width: 19vw;
+    border: solid brown;
 }
 .lproj {
   padding-top: 15%;
@@ -118,8 +119,8 @@ a {
   font-family: "Montserrat";
 }
 .donation-container {
-  background-image: url(./img/plano_de_fundo-removebg-preview.png);
-  
+  background-image: url(./img/plano_de_fundo-removebg-preview5-PhotoRoom_1.png);
+  /*background-repeat: no-repeat;*/
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -425,14 +426,13 @@ footer {
 }
 .botao-doar-page1 {
   border: 0;
-  font-size: 100%;
-  width: 150px;
-  height: 57px;
-  color: white;
-  background-color: rgb(0, 0, 0);
-  border-radius: 30px;
-  cursor: pointer;
- 
+    font-size: 100%;
+    width: 128px;
+    height: 45px;
+    color: #ffffff;
+    background-color: rgb(0 0 0);
+    border-radius: 30px;
+    cursor: pointer;
 
 }
 .img-logo-page1 {
@@ -455,11 +455,11 @@ footer {
 }
 
 .texto-encimada-img-page1 {
-  padding-left: 22vw;
-  padding-top: 9vh;
-  font-size: 300%;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #ffff;
+  padding-left: 14vw;
+    padding-top: 9vh;
+    font-size: 300%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffff;
 }
 
 .img-texto-page1 {
@@ -478,7 +478,7 @@ footer {
 .foto-da-ong-page1 {
   height: 92vh;
   width: 99vw;
-  opacity: 60%;
+  opacity: 87%;
 }
 
 .div-do-texto-encimada-img-page1 {
