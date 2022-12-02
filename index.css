@@ -455,12 +455,11 @@ footer {
 }
 
 .texto-encimada-img-page1 {
-  padding-left: 24%;
-  padding-top: 9vh;
-  font-size: 300%;
-  width: 150%;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #ffff;
+  padding-left: 236px;
+    padding-top: 9vh;
+    font-size: 300%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffff;
 }
 
 .img-texto-page1 {
@@ -479,7 +478,7 @@ footer {
 .foto-da-ong-page1 {
   height: 92vh;
   width: 99vw;
-  opacity: 87%;
+  opacity: 67%;
 }
 
 .div-do-texto-encimada-img-page1 {
